@@ -1,0 +1,15 @@
+﻿<EntityEndpoint>
+    <Endpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="BMC_OnBase" version="22.200.001" systemContractVersion="4" xmlns="http://www.acumatica.com/entity/maintenance/5.31">
+        <ExtendsEndpoint name="Default" version="22.200.001" />
+        <TopLevelEntity name="Bill" screen="AP301000">
+            <Fields>
+                <Field name="OnBaseURL" type="StringValue" />
+            </Fields>
+            <Mappings>
+                <Mapping field="OnBaseURL">
+                    <To object="Document" field="UsrBlyOnBaseURL" />
+                </Mapping>
+            </Mappings>
+        </TopLevelEntity>
+    </Endpoint>
+</EntityEndpoint>
