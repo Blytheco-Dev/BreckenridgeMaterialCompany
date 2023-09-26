@@ -24,6 +24,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "23_110", "..\..\..\..\..\..
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "4445"
 		VWDDynamicPort = "false"
+		SlnRelativePath = "..\..\..\..\..\..\..\Program Files\Acumatica ERP\23_110\"
 	EndProjectSection
 EndProject
 Global
